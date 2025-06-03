@@ -49,7 +49,6 @@ def modify_pdf(input_pdf, output_pdf):
     # }
     ]
     
-    
     doc = pymupdf.open(input_pdf)
     for page in doc:
         for entry in word_color_map:
