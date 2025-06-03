@@ -17,7 +17,7 @@ function FileUpload() {
 
     try {
       // Update this URL after deploying your backend!
-      const response = await fetch('https://annotator-test-cxr9.onrender.com', {
+      const response = await fetch('https://annotator-test-cxr9.onrender.com/upload', {
         method: 'POST',
         body: formData,
       });
